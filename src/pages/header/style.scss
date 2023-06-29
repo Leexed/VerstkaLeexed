@@ -1,12 +1,14 @@
 .header {
+background-color: rgb(241, 241, 241); 
+
 display: flex;
-;
+
 
 &__logo{
     padding-top: 29px;
     margin-left: 390px;
     margin-right: -2px;
-    padding-bottom: 29px;
+    // padding-bottom: 29px;
 }
 
 &__imageskills{
@@ -55,25 +57,28 @@ display: flex;
 
 &__number{
     padding-top: 40px;
-    padding-right: 104px;
+
 
 }
 
 
-&__login{
-    padding-top: 40px;
+&__linelogin{
+    display: flex;
+    width: 1px;
+height: 40px;
+    padding-left: 20px;
+    padding-top: 31px;
+}
 
+&__imglogin{
+    display: flex;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 0px;
+    width: 160px;
+flex-shrink: 0;
 }
 
 
 
-
-    
-    > div:first-child {
-
-    }
-    // > div:
-    > div {
-        
-    }
 }

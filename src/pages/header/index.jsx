@@ -5,10 +5,11 @@ import { Link } from "react-router-dom";
 export const HeaderPage = () => {
     return <div className={'header'}>
         <div className={'header__logo'}>
-            <img src={'./assets/logo.svg'}/> 
+            <Link to={'/'}><img src={'./assets/logo.svg'}/></Link>
+
         </div>
         <div className={'header__imageskills'}>
-            <img src={'./assets/imageskills.svg'}></img>
+        <Link to={'/'}><img src={'./assets/imageskills.svg'}></img></Link>
         </div>
         <div className={'header__logotext'}>
             <div>Онлайн-школа<br/>визуальных<br/>искусств</div>
@@ -20,8 +21,12 @@ export const HeaderPage = () => {
         <div className={'header__number'}>
             <div>8 (800) 301-55-89</div>
         </div>
-        <div className={'header__login'}>
-            <div>Вход</div>
+        
+        <div className={'header__linelogin'}>
+                <img src={'./assets/images/line.png'}/> 
+            </div>
+        <div className={'header__imglogin'}>
+                <Link to={'/'}><img src={'./vxod.png'}/></Link> 
         </div>
         
         

@@ -1,0 +1,100 @@
+.courses{
+    display: flex;
+    flex-direction: column;
+    .courses__header{
+        display: flex;
+        .courses__headerimg{
+            padding-top: 14px;
+            margin-left: 412px;
+            display: flex;
+            width: 483px;
+            height: 611px;
+            flex-shrink: 0;
+        }
+        .courses__header_text{
+            
+            .courses__header_text1{
+                text-align: left;
+                padding-top: 104px;
+                margin-left: 79px;
+                display: flex;
+                width: 461px;
+                flex-direction: column;
+                flex-shrink: 0;
+                color: #000;
+                font-size: 60px;
+                font-family: Abel;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 70px;
+            }
+            .courses__header_text2{
+                text-align: left;
+                padding-top: 27px;
+                margin-left: 79px;
+                display: flex;
+                width: 458px;
+                flex-direction: column;
+                flex-shrink: 0;
+                color: #65646C;
+                font-size: 16px;
+                font-family: Tiro Devanagari Hindi;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 26px;             
+            }
+        }
+    }
+    .courses__center_text{
+            display: flex;
+            flex-direction: column;
+            .courses__center_text1{
+                display: flex;
+                margin-left: 387px;
+                padding-top: 101px;
+                color: #000;
+                font-size: 32px;
+                font-family: Abel;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 55px;
+            }
+            .courses__center_text2{
+                display: flex;
+                margin-left: 389px;
+                padding-top: 20px;
+                width: 615px;
+                flex-shrink: 0;
+                color: #65646C;
+                font-size: 16px;
+                font-family: Tiro Devanagari Hindi;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 26px;
+            }
+        }
+    .courses__courses{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 100px;
+            padding-top: 43px;
+            .courses__headergot{
+                display: flex;
+                width: 262.726px;
+                height: 400px;
+                flex-shrink: 0;
+            }
+            .courses__headerfash{
+                display: flex;
+                width: 262.726px;
+                height: 400px;
+                flex-shrink: 0;
+            }
+            .courses__headersket{
+                display: flex;
+                width: 261.727px;
+                height: 400px;
+                flex-shrink: 0;
+            }
+        }
+    }
