@@ -196,7 +196,31 @@ const GhotingPage = () => (
                     </a>
                 </div>
                 <div className="ghoting_groundbox">
-                    <img src={"./assets/images/ghoting/5991.png"}/>
+
+                    <div className="ghoting_groundbox1">
+                    <img src={"./assets/images/ghoting/01.png"}/>
+                        <a className="ghoting_groundbox2">
+                        <img src={"./assets/images/ghoting/02.png"}/>
+                        </a>
+                    </div>
+                    <div className="ghoting_groundbox3">
+                    <img src={"./assets/images/ghoting/03.png"}/>
+                        <a className="ghoting_groundbox4">
+                        <img src={"./assets/images/ghoting/04.png"}/>
+                        </a>
+                    </div>
+                    <div className="ghoting_groundbox5">
+                    <img src={"./assets/images/ghoting/05.png"}/>
+                    <a className="ghoting_groundbox6">
+                    <img src={"./assets/images/ghoting/06.png"}/>
+                            </a>
+                    </div>
+                    <div className="ghoting_groundbox7">
+                    <img src={"./assets/images/ghoting/07.png"}/>
+                    <a className="ghoting_groundbox8">
+                    <img src={"./assets/images/ghoting/08.png"}/>
+                            </a>
+                    </div>
                 </div>
             </div>
         </div>    

@@ -196,7 +196,31 @@ const SketchingPage = () => (
                     </a>
                 </div>
                 <div className="sketching_groundbox">
-                    <img src={"./assets/images/sketching/5991.png"}/>
+
+                    <div className="sketching_groundbox1">
+                    <img src={"./assets/images/sketching/01.png"}/>
+                        <a className="sketching_groundbox2">
+                        <img src={"./assets/images/sketching/02.png"}/>
+                        </a>
+                    </div>
+                    <div className="sketching_groundbox3">
+                    <img src={"./assets/images/sketching/03.png"}/>
+                        <a className="sketching_groundbox4">
+                        <img src={"./assets/images/sketching/04.png"}/>
+                        </a>
+                    </div>
+                    <div className="sketching_groundbox5">
+                    <img src={"./assets/images/sketching/05.png"}/>
+                    <a className="sketching_groundbox6">
+                    <img src={"./assets/images/sketching/06.png"}/>
+                            </a>
+                    </div>
+                    <div className="sketching_groundbox7">
+                    <img src={"./assets/images/sketching/07.png"}/>
+                    <a className="sketching_groundbox8">
+                    <img src={"./assets/images/sketching/08.png"}/>
+                            </a>
+                    </div>
                 </div>
             </div>
         </div>    

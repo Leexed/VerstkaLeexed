@@ -18,7 +18,7 @@ const FashionPage = () => (
                 <div className={"fashion__header_text4"}>
                     Курс:
                     <a className={"fashion__header_text5"}>
-                    Ириной Пироговой
+                    Ирины Пироговой
                     </a>
                 </div>
                 <div className={"fashion__header_clock"}>
@@ -196,7 +196,31 @@ const FashionPage = () => (
                     </a>
                 </div>
                 <div className="fashion_groundbox">
-                    <img src={"./assets/images/fashion/5991.png"}/>
+
+                    <div className="fashion_groundbox1">
+                    <img src={"./assets/images/fashion/01.png"}/>
+                        <a className="fashion_groundbox2">
+                        <img src={"./assets/images/fashion/02.png"}/>
+                        </a>
+                    </div>
+                    <div className="fashion_groundbox3">
+                    <img src={"./assets/images/fashion/03.png"}/>
+                        <a className="fashion_groundbox4">
+                        <img src={"./assets/images/fashion/04.png"}/>
+                        </a>
+                    </div>
+                    <div className="fashion_groundbox5">
+                    <img src={"./assets/images/fashion/05.png"}/>
+                    <a className="fashion_groundbox6">
+                    <img src={"./assets/images/fashion/06.png"}/>
+                            </a>
+                    </div>
+                    <div className="fashion_groundbox7">
+                    <img src={"./assets/images/fashion/07.png"}/>
+                    <a className="fashion_groundbox8">
+                    <img src={"./assets/images/fashion/08.png"}/>
+                            </a>
+                    </div>
                 </div>
             </div>
         </div>    
