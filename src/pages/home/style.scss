@@ -1,6 +1,6 @@
 .home {
     background-color: rgb(241, 241, 241);
-    
+    background-image: linear-gradient(#ffffff , #f8f8f8 7%, rgb(241, 241, 241));
     height: 100%;
     width: 100%;
     display: flex;
@@ -33,7 +33,7 @@
     font-size: 32px;
     font-family: Abel;
     line-height: 55px;
-    padding-top: 249px;
+    padding-top: 340px;
 
     }
 
@@ -49,6 +49,7 @@
 .home__headercourses{
     display: flex;
     margin-left: 522px;
+
 .home__headergot{
     width: 263px;
     height: 400px;
@@ -75,6 +76,7 @@
 }
 
 .home__headertext1{
+    padding-top: 12px;
     display: flex;
     color: #000;
     font-size: 32px;

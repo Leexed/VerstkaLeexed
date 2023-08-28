@@ -26,14 +26,15 @@ const CoursesPage = () => (
             
             <div className={'courses__courses'}>
                 <div className={'courses__headergot'}>
-                    <img src={'./assets/images/Gothic.png'}/> 
+                <Link to={'/ghoting'}><img src={'./assets/images/Gothic.png'}/> </Link>
                 </div>
                 <div className={'courses__headerfash'}>
-                    <img src={'./assets/images/Fashion.png'}/> 
+                <Link to={'/fashion'}><img src={'./assets/images/Fashion.png'}/> </Link>
                 </div>
                 <div className={'courses__headersket'}>
-                    <img src={'./assets/images/Sketching.png'}/> 
+                <Link to={'/sketching'}><img src={'./assets/images/Sketching.png'}/> </Link>
                 </div>
+                
             </div>
         
     </div> 

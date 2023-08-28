@@ -1,6 +1,7 @@
 .courses{
     display: flex;
     flex-direction: column;
+    background-image: linear-gradient(#ffffff , #f8f8f8 98%, rgb(241, 241, 241));
     .courses__header{
         display: flex;
         .courses__headerimg{
@@ -83,12 +84,14 @@
                 width: 262.726px;
                 height: 400px;
                 flex-shrink: 0;
+                margin-right: 44px;
             }
             .courses__headerfash{
                 display: flex;
                 width: 262.726px;
                 height: 400px;
                 flex-shrink: 0;
+                margin-right: 44px;
             }
             .courses__headersket{
                 display: flex;

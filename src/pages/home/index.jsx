@@ -26,13 +26,13 @@ const HomePage = () => (
 
             <div className={'home__headercourses'}>
                 <div className={'home__headergot'}>
-                    <img src={'./assets/images/Gothic.png'}/> 
+                <Link to={'/ghoting'}><img src={'./assets/images/Gothic.png'}/></Link>
                 </div>
                 <div className={'home__headerfash'}>
-                    <img src={'./assets/images/Fashion.png'}/> 
+                <Link to={'/fashion'}><img src={'./assets/images/Fashion.png'}/></Link> 
                 </div>
                 <div className={'home__headersket'}>
-                    <img src={'./assets/images/Sketching.png'}/> 
+                <Link to={'/sketching'}><img src={'./assets/images/Sketching.png'}/></Link> 
                 </div>
             </div>
             

@@ -1,0 +1,525 @@
+.fashion{
+    // background-color: #f8f8f8; 
+    background-image: linear-gradient(#ffffff 1%, #f8f8f8 3%);
+    flex-direction: column;
+    display: flex;
+    .fashion__header_nabor{
+        padding-top: 55px;
+        margin-left: 390px;
+        display: flex;
+        width: 180px;
+        height: 30px;
+        flex-shrink: 0;
+    }
+    .fashion__header{
+        display: flex;
+        .fashion__headertext{
+            flex-direction: column;
+            display: flex;
+            .fashion__header_text2{
+                margin-left: 384px;
+                padding-top: 30px;
+                display: flex;
+                color: #000;
+                font-size: 60px;
+                font-family: Abel;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 70px;
+            }
+            .fashion__header_text3{
+                padding-top: 27px;
+                margin-left: 390px;
+                display: flex;
+                color: #000;
+                font-size: 16px;
+                font-family: Tiro Devanagari Hindi;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 26px;
+            }
+            .fashion__header_text4{
+                padding-top: 52px;
+                margin-left: 389px;
+                display: flex;
+                color: #65646C;
+                font-size: 16px;
+                font-family: Tiro Devanagari Hindi;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 26px;
+            }
+            .fashion__header_text5{
+                margin-left: 6px;
+                display: flex;
+                color: #000;
+                font-size: 20px;
+                font-family: Abel;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            .fashion__header_clock{
+                padding-top: 11px;
+                margin-left: 388px;
+                display: flex;
+                width: 283px;
+                height: 26px;
+                flex-shrink: 0;
+            }
+            .fashion__header_text6{
+                padding-top: 45px;
+                margin-left: 365px;
+                display: flex;
+                width: 360px;
+                flex-shrink: 0;
+            }
+        }
+    .fashion__header_text7{
+        margin-left: 22px;
+        padding-top: 18px;
+        display: flex;
+        width: 724px;
+        height: 518px;
+        flex-shrink: 0;
+    }
+    }
+    .fashion__header2{
+        padding-top: 60px;
+        flex-direction: row;
+        display: flex;
+        .fashion__header2_text1{
+            margin-right: 37px;
+            margin-left: 390px;
+            width: 191px;
+            flex-direction: column;
+            display: flex;
+            color: #000;
+            font-size: 16px;
+            font-family: Abel;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            .fashion__header3_text1{
+                display: flex;
+                color: #65646C;
+                font-size: 14px;
+                font-family: Abel;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+        .fashion__header_line1{
+            display: flex;
+            width: 1px;
+            height: 41px;
+        }
+        .fashion__header2_text2{
+            margin-left: 43px;
+            margin-right: 36px;
+            flex-direction: column;
+            display: flex;
+            color: #000;
+            font-size: 16px;
+            font-family: Abel;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            .fashion__header3_text2{
+                display: flex;
+                color: #65646C;
+                width: 169px;
+                font-size: 14px;
+                font-family: Abel;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+        .fashion__header_line2{
+            display: flex;
+            width: 1px;
+            height: 41px;
+        }
+        .fashion__header2_text3{
+            margin-left: 43px;
+            margin-right: 38px;
+            width: 149px;
+            flex-direction: column;
+            display: flex;
+            color: #000;
+            font-size: 16px;
+            font-family: Abel;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            .fashion__header3_text3{
+                display: flex;
+                color: #65646C;
+                font-size: 14px;
+                font-family: Abel;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+        .fashion__header_line3{
+            display: flex;
+            width: 1px;
+            height: 41px;
+        }
+        .fashion__header2_text4{
+            margin-left: 43px;
+            margin-right: 33px;
+            width: 192px;
+            flex-direction: column;
+            display: flex;
+            color: #000;
+            font-size: 16px;
+            font-family: Abel;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            .fashion__header3_text4{
+                display: flex;
+                color: #65646C;
+                font-size: 14px;
+                font-family: Abel;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+        .fashion__header_line4{
+            display: flex;
+            width: 1px;
+            height: 41px;
+        }
+        .fashion__header2_text5{
+            margin-left: 43px;
+            width: 128px;
+            flex-direction: column;
+            display: flex;
+            color: #000;
+            font-size: 16px;
+            font-family: Abel;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            .fashion__header3_text5{
+                display: flex;
+                color: #65646C;
+                font-size: 14px;
+                font-family: Abel;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+    }
+    .fashion_video{
+        display: flex;
+        padding-top: 153px;
+        background-image: linear-gradient(#f8f8f8 10%, #ffffff 98%);
+        .fashion_videotext{
+            margin-left: 488px;
+            padding-top: 59px;
+            margin-right: 64px;
+            display: flex;
+            flex-direction: column;
+            .fashion_videotext1{
+                display: flex;
+                color: #000;
+                font-size: 22px;
+                font-family: Abel;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+
+                flex-direction: column;
+                .fashion_videotext2{
+                    display: flex;
+                    color: #65646C;
+                    font-size: 16px;
+                    font-family: Tiro Devanagari Hindi;
+                    font-style: italic;
+                    font-weight: 400;
+                    line-height: 24px;
+                    padding-bottom: 78px;
+                }
+            }
+            .fashion_videotext3{
+                display: flex;
+                color: #000;
+                font-size: 22px;
+                font-family: Abel;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                width: 94px;
+                flex-direction: column;
+                .fashion_videotext4{
+                    display: flex;
+                    color: #65646C;
+                    font-size: 16px;
+                    font-family: Tiro Devanagari Hindi;
+                    font-style: italic;
+                    font-weight: 400;
+                    line-height: 24px;
+                    width: 210px;
+                    padding-bottom: 78px;
+                    
+                }
+            }
+            .fashion_videotext5{
+                display: flex;
+                color: #000;
+                font-size: 22px;
+                font-family: Abel;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                width: 106px;
+                flex-direction: column;
+                .fashion_videotext6{
+                    display: flex;
+                    color: #65646C;
+                    font-size: 16px;
+                    font-family: Tiro Devanagari Hindi;
+                    font-style: italic;
+                    font-weight: 400;
+                    line-height: 24px;
+                    width: 213px;
+                }
+            }
+        }
+        .fashion_videofoto{
+            display: flex;
+            flex-direction: column;    
+            flex-shrink: 0;
+            border-radius: 20px;  
+            .fashion_videotext5{
+                padding-top: 0px;
+                margin-left: 98px;
+                display: flex;
+                flex-direction: column;    
+                color: #000;
+                font-size: 16px;
+                font-family: Tiro Devanagari Hindi;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+    }
+
+        .fashion_avokad{
+            display: flex;
+            // background-color: rgb(252, 251, 251);
+            background-image: linear-gradient(#ffffff , rgb(252, 251, 251) 90%, #ffffff);
+            .fashion_avokadtext{
+                display: flex;
+                flex-direction: column; 
+                padding-top: 63px;
+                .fashion_avokadtext1{
+                    margin-left: 388px;
+                    display: flex;
+                    flex-direction: column;
+                    color: #000;
+                    font-family: Abel;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 55px; /* 171.875% */
+                    .fashion_avokadtext2{
+                        padding-bottom: 0px;
+                        margin-left: 2px;
+                        width: 555px;
+                        color: #65646C;
+                        font-family: Tiro Devanagari Hindi;
+                        font-size: 16px;
+                        font-style: italic;
+                        font-weight: 400;
+                        line-height: 26px; /* 162.5% */
+                    }
+                }
+                .fashion_fotoadvokad{
+                    display: flex;
+                    .fashion_fotoadvokad2{
+                        display: flex;
+                        flex-direction: column;
+                        .fashion_fotoadvokad11{
+                            padding-top: 10px;
+                            margin-left: 387px;
+                            width: 53px;
+                            height: 42px;
+                            flex-shrink: 0;
+                        }
+                        .fashion_fotoadvokad22{
+                            padding-top: 46px;
+                            padding-bottom: 10px;
+                            margin-left: 390px;
+                            width: 53.24px;
+                            height: 70.415px;
+                            // transform: rotate(-156.048deg);
+                            flex-shrink: 0;
+                        }
+                        .fashion_fotoadvokad33{
+                            margin-left: 392px;
+                            width: 44px;
+                            height: 65px;
+                            flex-shrink: 0;
+                        }
+                    }
+                    .fashion_advokad1{
+                        margin-left: 15px;
+                        display: flex;
+                        flex-direction: column;
+                        .fashion_avokadtext3{
+                            padding-top: 19px;
+                            color: #65646C;
+                            font-family: Tiro Devanagari Hindi;
+                            font-size: 14px;
+                            font-style: italic;
+                            font-weight: 400;
+                            line-height: 21px; /* 150% */
+                        }
+                        .fashion_avokadtext4{
+                            padding-top: 43px;
+                            color: #65646C;
+                            font-family: Tiro Devanagari Hindi;
+                            font-size: 14px;
+                            font-style: italic;
+                            font-weight: 400;
+                            line-height: 21px; /* 150% */
+                        }
+                        .fashion_avokadtext5{
+                            padding-top: 39px;
+                            color: #65646C;
+                            font-family: Tiro Devanagari Hindi;
+                            font-size: 14px;
+                            font-style: italic;
+                            font-weight: 400;
+                            line-height: 21px; /* 150% */
+                        }
+                    }
+                    .fashion_lineadvokad2{
+                        margin-left: 2px;
+                    }
+                    .fashion_fotoadvokad2{
+                        display: flex;
+                        flex-direction: column;
+                        .fashion_fotoadvokad44{
+                            padding-top: 10px;
+                            margin-left: 22px;
+                            padding-bottom: 40px;
+                            width: 39px;
+                            height: 49px;
+                            flex-shrink: 0;
+                        }
+                        .fashion_fotoadvokad55{
+                            margin-left: 24px;
+                            padding-bottom: 38px;
+                            width: 36px;
+                            height: 42px;
+                            flex-shrink: 0;
+                        }
+                        .fashion_fotoadvokad66{
+                            margin-left: 20px;
+                            width: 47px;
+                            height: 26px;
+                            // transform: rotate(30deg);
+                            flex-shrink: 0;
+                        }
+                    }
+                    .fashion_advokad2{
+                        display: flex;
+                        flex-direction: column;
+                        padding-top: 10px;
+                        .fashion_avokadtext6{
+                            margin-left: 16px;
+                            color: #65646C;
+                            font-family: Tiro Devanagari Hindi;
+                            font-size: 14px;
+                            font-style: italic;
+                            font-weight: 400;
+                            line-height: 21px; /* 150% */
+                        }
+                        .fashion_avokadtext7{
+                            margin-left: 17px;
+
+                            padding-top: 52px;
+                            color: #65646C;
+                            font-family: Tiro Devanagari Hindi;
+                            font-size: 14px;
+                            font-style: italic;
+                            font-weight: 400;
+                            line-height: 21px; /* 150% */
+                        }
+                        .fashion_avokadtext8{
+                            margin-left: 18px;
+                            padding-top: 39px;
+                            color: #65646C;
+                            font-family: Tiro Devanagari Hindi;
+                            font-size: 14px;
+                            font-style: italic;
+                            font-weight: 400;
+                            line-height: 21px; /* 150% */
+                        }
+                    }
+                }
+                .fashion_avokadfotoblock{
+                    display: flex;
+                    margin-left: 370px;
+
+
+                }
+            }
+        }
+        .fashion_avokadoall{
+            display: flex;
+            flex-direction: column; 
+            padding-top: 43px;
+            .fashion_avokadfoto{
+                margin-left: 76px;
+                display: flex;
+                width: 446px;
+                height: 620px;
+                flex-shrink: 0;
+            }
+            
+        }
+        .fashion_ground{
+            background-image: linear-gradient(#ffffff , #f8f8f8 20%, rgb(241, 241, 241));
+            .fashion_groundtext{
+                display: flex;
+                margin-top: 101px;
+                margin-left: 387px;
+                .fashion_groundtext1{
+                    display: flex;
+                    flex-direction: column;
+                    color: #000;
+                    font-family: Abel;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 55px; /* 171.875% */
+                    .fashion_groundtext2{
+                        margin-left: 2px;
+                        color: #65646C;
+                        font-family: Tiro Devanagari Hindi;
+                        font-size: 16px;
+                        font-style: italic;
+                        font-weight: 400;
+                        line-height: 26px; /* 162.5% */
+                    }
+                }
+            }
+            .fashion_groundbox{
+                padding-top: 30px;
+                margin-left: 390px;
+            }
+        }
+    
+}
