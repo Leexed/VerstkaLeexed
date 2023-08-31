@@ -7,22 +7,26 @@ const HomePage = () => (
         <div className={'home'}>
             <div className={'home__header'}>
                 <div className={"home__header_text1"}>
-                <a className="text11">Обучаем визуальным<br/>
+
+                    <a className="text11">Обучаем визуальным<br/>
                     навыкам за 2 месяца</a>
-                <div><a className="text22">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    
+                    <div className="text22">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                     Curabitur purus urna,<br/> placerat
                     eget risus sit amet, a uctor fringilla tortor. 
-                    Aenean non feugiat sapien</a></div>
+                    Aenean non feugiat sapien
+                    </div>
+                    </div>
+                    <div className={'home__headerimg'}>
+                    <   img src={'./assets/images/home1.png'}/> 
                     
+                        </div>  
+                    
+                        </div>  
                     <div><a className={'text33'}>
             Программы обучения
-            </a></div>
-            </div>
-                
-                    <div className={'home__headerimg'}>
-                <img src={'./assets/images/home1.png'}/> 
-                    </div>           
-            </div> 
+            </a></div> 
+            
 
             <div className={'home__headercourses'}>
                 <div className={'home__headergot'}>
@@ -42,40 +46,26 @@ const HomePage = () => (
 
             <div className={'home__headerinfo'}>
                 <div className={'home__headernovichkov'}>
-                    <img src={'./assets/images/novichkov.png'}/> 
-                </div>
-                <div className={'home__headertvorcov'}>
-                    <img src={'./assets/images/tvorcov.png'}/> 
-                </div>
-                <div className={'home__headerspec'}>
-                    <img src={'./assets/images/spec.png'}/> 
-                </div>
-                <div className={'home__headerdetey'}>
-                    <img src={'./assets/images/detey.png'}/> 
-                </div>
-            </div>  
+                    <img src={'./assets/images/novichkov.png'}/>
+                    <div className={'home__headertextnovich1'}> 
 
-            <div className={'home__headerinfotext'}>
-                <div className={'home__headertextnovich'}>
+                    <div className={'home__headertextnovich'}>
                     Для новичков
-                </div>     
-                <div className={'home__headertexttvorc'}>
-                    Для творцов
-                </div>  
-                <div className={'home__headertextspec'}>
-                    Для специалистов
-                </div>  
-                <div className={'home__headertextdetey'}>
-                    Для детей
-                </div>
-            </div>
-
-            <div className={'home__headerinfotext2'}>
+                </div> 
                 <div className={'home__headertextnovichopis'}>
                 Если ты только начинаешь
                     свой<br/> путь в искусстве и
                     пока не<br/> знаешь с чего
                     начать, мы тебе<br/> поможем!
+                </div>
+                </div>
+                </div>
+                <div className={'home__headertvorcov'}>
+                    <img src={'./assets/images/tvorcov.png'}/>
+                    <div className={'home__headertexttvorc1'}>
+
+                    <div className={'home__headertexttvorc'}>
+                    Для творцов
                 </div>
                 <div className={'home__headertexttvorcopis'}>
                 Если ты только начинаешь
@@ -83,20 +73,40 @@ const HomePage = () => (
                     пока не<br/> знаешь с чего
                     начать, мы тебе<br/> поможем!
                 </div>
+                </div> 
+                </div>
+                <div className={'home__headerspec'}>
+                    <img src={'./assets/images/spec.png'}/> 
+                    <div className={'home__headertextspec1'}>
+
+                    <div className={'home__headertextspec'}>
+                    Для специалистов
+                </div>  
                 <div className={'home__headertextspecopis'}>
                 Если ты только начинаешь
                     свой<br/> путь в искусстве и
                     пока не<br/> знаешь с чего
                     начать, мы тебе<br/> поможем!
                 </div>
+                </div>
+                </div>
+                <div className={'home__headerdetey'}>
+                    <img src={'./assets/images/detey.png'}/> 
+                    <div className={'home__headertextdetey1'}>
+
+                <div className={'home__headertextdetey'}>
+                    Для детей
+                </div>
                 <div className={'home__headertextdeteyopis'}>
                 Если ты только начинаешь
                     свой<br/> путь в искусстве и
                     пока не<br/> знаешь с чего
                     начать, мы тебе<br/> поможем!
-                </div>    
-            </div>
-
+                </div>
+                </div>  
+                </div>
+                  
+            </div>  
 
             <div className={'home__textcentr'}>
             Как проходит обучение
@@ -167,4 +177,6 @@ const HomePage = () => (
     )
 
 
+
 export default HomePage
+

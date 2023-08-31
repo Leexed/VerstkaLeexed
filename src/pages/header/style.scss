@@ -82,3 +82,77 @@ flex-shrink: 0;
 
 
 }
+
+.header-mobile{
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .header {
+        display: none;
+      }
+      .header-mobile {
+        display: flex;
+        flex-direction: column;
+        &__menu {
+          padding-top: 13px;
+          padding-left: 30px;
+          padding-right: 0px;
+          padding-bottom: 13px;
+          display: flex;
+          > div:last-child {
+            padding-top: 5px;
+            margin-left: 160px;
+          }
+        }
+        &__block {
+          position: absolute;
+          max-height: 100%;
+          margin-top: 0px;
+          transition: max-height 2s cubic-bezier(0, 1, 0, 1);
+        }
+        &__block-open {
+          max-height: 100%;
+          background-color: #ffffff;
+          transition: max-height 2s cubic-bezier(1, 1, 1, 1);
+          // height: 100%;
+          width: 100%;
+          left: 0px;
+          top: 64px;
+          .lineheader1{
+            padding-top: 0px;
+          }
+          .phone_number{
+            color: #000000;
+            margin-right: 30px;
+            padding-top: 574px;
+            padding-bottom: 30px;
+            color: #000;
+text-align: right;
+font-family: Abel;
+font-size: 16px;
+
+          }
+          > div {
+            padding-top: 10px;
+            padding-left: 30px;
+            
+            a {
+              display: flex;
+              color: #000000;
+font-family: Abel;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+            }
+            
+            a:hover {
+              opacity: 1ms;
+            }
+            
+          }
+        }
+    }
+    }

@@ -94,3 +94,102 @@
 }   
 
 }
+
+@media (max-width: 992px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(241, 241, 241);
+    
+        .footer_info{
+            display: flex;
+            &_logo{
+                align-items: center;
+                display: flex;
+                // padding-top: 29px;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+    
+            &_imageskills{
+                display: flex;
+                padding-top: 40px;
+            
+            }
+            }
+        
+        
+        
+        
+        &__logotext{
+            display: flex;
+            text-align: left;
+            padding-top: 15px;
+            margin-left: 0px;
+            color: #C4C4C4;
+            display: flex;
+            width: 140px;
+            flex-direction: column;
+            flex-shrink: 0;
+        }
+        
+        &__menu{
+            display: flex;
+            padding-top: 40px;
+            // margin-left: 44px;
+            margin-left: 0px;
+            display: flex;
+            >div:last-child{
+                margin-left: 0px;
+     
+            }
+            >div{
+                padding-right: 0px;
+                a {
+                    color: #8A8A8A;
+                    font-size: 16px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    transition: 0.5s;
+                    opacity: 0.8;
+                    ;
+                }
+                a:hover{
+                    color: #000000;
+        
+                    opacity: 1;
+        
+                }
+            }
+        }
+        
+        &__number{
+            display: flex;
+            padding-top: 40px;
+            padding-left: 0px;
+        
+        }
+    
+    .footer_info_text{
+        display: flex;
+        color: #65646C;
+        font-size: 12px;
+        font-family: Basic;
+        padding-left: 0px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        // padding-top: 150px;
+        &_2{
+            display: flex;
+            text-decoration-line: underline;
+            padding-left: 0px;
+        }
+        &_3{
+            display: flex;
+            text-decoration-line: underline;
+            padding-left: 61px;
+        }
+    }   
+    
+    }
+}
