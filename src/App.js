@@ -11,14 +11,13 @@ import { HeaderPage } from './pages/header';
 import Footer from './pages/footer';
 
 
-
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <HeaderPage/>
           <Routes>
-            <Route path={'/'} element={<HomePage/>}/>
+            <Route path={'/'} element={<HomePage/>}/> 
             <Route path={'/courses'} element={<CoursesPage/>}/>
             <Route path={'/sketching'} element={<SketchingPage/>}/>
             <Route path={'/ghoting'} element={<GhotingPage/>}/>

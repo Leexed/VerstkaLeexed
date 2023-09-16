@@ -346,7 +346,7 @@
                 }
                 .ghoting_fotoadvokad{
                     display: flex;
-                    .ghoting_fotoadvokad2{
+                    .ghoting_fotoadvokad1{
                         display: flex;
                         flex-direction: column;
                         .ghoting_fotoadvokad11{
@@ -546,3 +546,658 @@
         }
     
 }
+
+@media (max-width: 992px) {
+    .ghoting{
+    // background-color: #f8f8f8; 
+    background-image: linear-gradient(#ffffff 0%, #f8f8f8 1%);
+    flex-direction: column;
+    display: flex;
+    .ghoting__header_nabor{
+        padding-top: 55px;
+        margin-left: 0px;
+        margin-left: 31px;
+        display: flex;
+        width: 180px;
+        height: 30px;
+        flex-shrink: 0;
+        
+    }
+    .ghoting__header{
+        display: flex;
+        flex-direction: column;
+        
+        .ghoting__headertext{
+            flex-direction: column;
+            display: flex;
+            // margin-left: 31px;
+            .ghoting__header_text2{
+                margin-left: 0px;
+                margin-left: 31px;
+                padding-top: 15px;
+                display: flex;
+                color: #000;
+font-family: Abel;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 111.111% */
+            }
+            .ghoting__header_text3{
+                padding-top: 10px;
+                margin-left: 0px;
+                margin-left: 31px;
+                display: flex;
+                color: #000;
+                font-size: 16px;
+                font-family: Tiro Devanagari Hindi;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 26px;
+            }
+            .ghoting__header_text4{
+                padding-top: 20px;
+                margin-left: 0px;
+                margin-left: 31px;
+                display: flex;
+                color: #65646C;
+                font-size: 16px;
+                font-family: Tiro Devanagari Hindi;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 26px;
+            }
+            .ghoting__header_text5{
+                margin-left: 6px;
+                
+                display: flex;
+                color: #000;
+                font-size: 20px;
+                font-family: Abel;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+            }
+            .ghoting__header_clock{
+                padding-top: 11px;
+                margin-left: 0px;
+                margin-left: 31px;
+                display: flex;
+                width: 283px;
+                height: 26px;
+                flex-shrink: 0;
+            }
+            .ghoting__header_text6{
+                display: flex;
+                justify-content: center;
+                img{width: 350px;
+                    height: 105px;}
+                padding-top: 0px;
+                margin-left: 0px;
+                display: flex;
+                width: 390px;
+                flex-shrink: 0;
+                
+            }
+        }
+    .ghoting__header_text7{
+        img{width: 375px;
+            height: 342px;}
+        margin-left: 10px;
+        padding-top: 0px;
+        display: flex;
+        width: 375px;
+            height: 342px;
+        flex-shrink: 0;
+    }
+    }
+    .ghoting__header2{
+        padding-top: 16px;
+        flex-direction: row;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 390px;
+        .ghoting__header2_text1{
+            margin-right: 37px;
+            margin-left: 0px;
+            width: 390px;
+            flex-direction: column;
+            display: flex;
+            color: #000;
+            font-size: 16px;
+            font-family: Abel;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            .ghoting__header3_text1{
+                display: flex;
+                color: #65646C;
+                font-size: 14px;
+                font-family: Abel;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                width: 390px;
+                width: 390px;
+                justify-content: center;
+            }
+        }
+        .ghoting__header_line1{
+            display: flex;
+            width: 0px;
+            height: 0px;
+        }
+        .ghoting__header2_text2{
+            padding-top: 46px;
+            margin-left: 0px;
+            margin-right: 36px;
+            flex-direction: column;
+            display: flex;
+            color: #000;
+            font-size: 16px;
+            font-family: Abel;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            .ghoting__header3_text2{
+                display: flex;
+                color: #65646C;
+                width: 169px;
+                font-size: 14px;
+                font-family: Abel;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                width: 390px;
+                justify-content: center;
+            }
+        }
+        .ghoting__header_line2{
+            display: flex;
+            width: 0px;
+            height: 0px;
+        }
+        .ghoting__header2_text3{
+            padding-top: 46px;
+            margin-left: 0px;
+            margin-right: 0px;
+            width: 390px;
+            flex-direction: column;
+            display: flex;
+            color: #000;
+            font-size: 16px;
+            font-family: Abel;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            .ghoting__header3_text3{
+                display: flex;
+                color: #65646C;
+                font-size: 14px;
+                font-family: Abel;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                width: 390px;
+                justify-content: center;
+            }
+        }
+        .ghoting__header_line3{
+            display: flex;
+            width: 0px;
+            height: 0px;
+        }
+        .ghoting__header2_text4{
+            padding-top: 46px;
+            margin-left: 0px;
+            margin-right: 0px;
+            width: 390px;
+            flex-direction: column;
+            display: flex;
+            color: #000;
+            font-size: 16px;
+            font-family: Abel;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            .ghoting__header3_text4{
+                display: flex;
+                color: #65646C;
+                font-size: 14px;
+                font-family: Abel;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                width: 390px;
+                justify-content: center;
+            }
+        }
+        .ghoting__header_line4{
+            display: flex;
+            width: 0px;
+            height: 0px;
+        }
+        .ghoting__header2_text5{
+            padding-top: 46px;
+            margin-left: 0px;
+            width: 390px;
+            flex-direction: column;
+            display: flex;
+            color: #000;
+            font-size: 16px;
+            font-family: Abel;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            .ghoting__header3_text5{
+                display: flex;
+                color: #65646C;
+                font-size: 14px;
+                font-family: Abel;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                width: 390px;
+                justify-content: center;
+            }
+        }
+    }
+    .ghoting_video{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 43px;
+        background-image: linear-gradient(#f8f8f8 10%, #ffffff 98%);
+        .ghoting_videotext{
+            margin-left: 0px;
+            padding-top: 45px;
+            margin-right: 64px;
+            display: flex;
+            flex-direction: column;
+            .ghoting_videotext1{
+                display: flex;
+                width: 85px;
+                color: #000;
+                font-family: Abel;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                margin-left: 94px;
+                flex-direction: column;
+                .ghoting_videotext2{
+                    display: flex;
+                    color: #65646C;
+                font-family: Tiro Devanagari Hindi;
+                font-size: 16px;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 24px; /* 150% */
+                padding-bottom: 0px;
+                    width: 228px;
+                }
+            }
+            .ghoting_videotext3{
+                display: flex;
+                color: #000;
+                padding-top: 56px;
+                font-family: Abel;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                width: 77px;
+                flex-direction: column;
+                margin-left: 94px;
+                .ghoting_videotext4{
+                    display: flex;
+                    color: #65646C;
+                font-family: Tiro Devanagari Hindi;
+                font-size: 16px;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 24px; /* 150% */
+                    width: 210px;
+                    padding-bottom: 0px;
+                    
+                }
+            }
+            .ghoting_videotext5{
+                display: flex;
+                color: #000;
+                padding-top: 56px;
+                font-family: Abel;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                width: 87px;
+                margin-left: 94px;
+                flex-direction: column;
+                .ghoting_videotext6{
+                    display: flex;
+                    color: #65646C;
+                font-family: Tiro Devanagari Hindi;
+                font-size: 16px;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 24px; /* 150% */
+                    line-height: 24px;
+                    width: 213px;
+                    padding-bottom: 0px;
+                }
+            }
+        }
+        .ghoting_videofoto{
+            display: flex;
+            flex-direction: column;    
+            flex-shrink: 0;
+            border-radius: 20px;  
+            .ghoting_videotext55{
+                padding-top: 32px;
+                margin-left: 98px;
+                display: flex;
+                flex-direction: column;    
+                color: #000;
+                font-size: 16px;
+                font-family: Tiro Devanagari Hindi;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .ghoting_avokad{
+        display: flex;
+        margin-left: 0px;
+        flex-direction: column;
+        // background-color: rgb(252, 251, 251);
+        background-image: linear-gradient(#ffffff , rgb(252, 251, 251) 90%, #ffffff);
+        .ghoting_avokadtext{
+            display: flex;
+            flex-direction: column; 
+            margin-left: 0px;
+            padding-top: 63px;
+            .ghoting_avokadtext1{
+                width: 179px;
+                margin-left: 30px;
+                display: flex;
+                flex-direction: column;
+                color: #000;
+                font-family: Abel;
+                font-size: 28px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 40px; /* 142.857% */
+                .ghoting_avokadtext2{
+                    padding-bottom: 0px;
+                    margin-left: 2px;
+                    width: 314px;
+                    color: #65646C;
+                    font-family: Tiro Devanagari Hindi;
+                    font-size: 14px;
+                    font-style: italic;
+                    font-weight: 400;
+                    line-height: 21px; /* 150% */
+                }
+            }
+            .ghoting_fotoadvokad{
+                display: flex;
+                // flex-direction: column;
+                margin-left: 0px;
+                width: 390px;
+                .ghoting_fotoadvokad1{
+                    display: flex;
+                    flex-direction: column; 
+                    margin-left: 15px;
+                    
+                    .ghoting_fotoadvokad11{
+                        padding-top: 15px;
+                        margin-left: 0px;
+                        width: 53px;
+                        height: 42px;
+                        flex-shrink: 0;
+                    }
+                    .ghoting_fotoadvokad22{
+                        padding-top: 95px;
+                        padding-bottom: 0px;
+                        margin-left: 7px;
+                        width: 53.24px;
+                        height: 70.415px;
+                        // transform: rotate(-156.048deg);
+                        flex-shrink: 0;
+                    }
+                    .ghoting_fotoadvokad33{
+                        padding-top: 57px;
+                        margin-left: 9px;
+                        width: 44px;
+                        height: 65px;
+                        flex-shrink: 0;
+                    }
+                }
+                .ghoting_advokad1{
+                    margin-left: 0px;
+                    display: flex;
+                    flex-direction: column;
+                    .ghoting_avokadtext3{
+                        width: 119px;
+                        height: 77px;
+                        padding-top: 19px;
+                        padding-bottom: 0px;
+                        margin-left: 0px;
+                        color: #65646C;
+                        font-family: Tiro Devanagari Hindi;
+                        font-size: 14px;
+                        font-style: italic;
+                        font-weight: 400;
+                        line-height: 21px; /* 150% */
+                    }
+                    .ghoting_avokadtext4{
+                        padding-top: 60px;
+                        margin-left: 0px;
+                        padding-bottom: 0px;
+                        width: 109px;
+                        height: 77px;
+                        color: #65646C;
+                        font-family: Tiro Devanagari Hindi;
+                        font-size: 14px;
+                        font-style: italic;
+                        font-weight: 400;
+                        line-height: 21px; /* 150% */
+                    }
+                    .ghoting_avokadtext5{
+                        padding-top: 54px;
+                        padding-bottom: 0px;
+                        margin-left: 0px;
+                        width: 110px;
+                        height: 35px;
+                        color: #65646C;
+                        font-family: Tiro Devanagari Hindi;
+                        font-size: 14px;
+                        font-style: italic;
+                        font-weight: 400;
+                        line-height: 21px; /* 150% */
+                    }
+                }
+                .ghoting_lineadvokad2{
+                    margin-left: -3px;
+                    img{
+                        width: 1px;
+                        height: 353px;
+                    }
+                }
+                .ghoting_fotoadvokad2{
+                    display: flex;
+                    margin-left: 0px;
+                    flex-direction: column;
+                    width: 56px;
+                    .ghoting_fotoadvokad44{
+                        padding-top: 18px;
+                        margin-left: 3px;
+                        padding-bottom: 0px;
+                        width: 39px;
+                        height: 49px;
+                        flex-shrink: 0;
+                    }
+                    .ghoting_fotoadvokad55{
+                        margin-left: 0px;
+                        padding-top: 84px;
+                        padding-bottom: 0px;
+                        width: 36px;
+                        height: 42px;
+                        flex-shrink: 0;
+                    }
+                    .ghoting_fotoadvokad66{
+                        margin-left: 4px;
+                        padding-top: 86px;
+                        width: 47px;
+                        height: 26px;
+                        // transform: rotate(30deg);
+                        flex-shrink: 0;
+                    }
+                }
+                .ghoting_advokad2{
+                    margin-left: 0px;
+                    display: flex;
+                    flex-direction: column;
+                    padding-top: 10px;
+                    .ghoting_avokadtext6{
+                        padding-top: 9px;
+                        margin-left: 0px;
+                        width: 95px;
+                        padding-bottom: 0px;
+                        height: 77px;
+                        flex-shrink: 0;
+                        color: #65646C;
+                        font-family: Tiro Devanagari Hindi;
+                        font-size: 14px;
+                        font-style: italic;
+                        font-weight: 400;
+                        line-height: 21px; /* 150% */
+                    }
+                    .ghoting_avokadtext7{
+                        margin-left: 0px;
+                        padding-top: 60px;
+                        padding-bottom: 0px;
+                        width: 129px;
+                        height: 77px;
+                        flex-shrink: 0;
+                        color: #65646C;
+                        font-family: Tiro Devanagari Hindi;
+                        font-size: 14px;
+                        font-style: italic;
+                        font-weight: 400;
+                        line-height: 21px; /* 150% */
+                    }
+                    .ghoting_avokadtext8{
+                        margin-left: 0px;
+                        padding-top: 53px;
+                        padding-bottom: 0px;
+                        width: 120px;
+                        height: 79px;
+                        flex-shrink: 0;
+                        color: #65646C;
+                        font-family: Tiro Devanagari Hindi;
+                        font-size: 14px;
+                        font-style: italic;
+                        font-weight: 400;
+                        line-height: 21px; /* 150% */
+                    }
+                }
+            }
+            .ghoting_avokadfotoblock{
+                display: flex;
+                justify-content: center;
+                margin-left: 0px;
+
+
+            }
+        }
+    }
+        .ghoting_avokadoall{
+            display: flex;
+            flex-direction: column; 
+            padding-top: 19px;
+            
+            .ghoting_avokadfoto{
+                img{width: 364px;
+                    height: 506px;}
+                display: flex;
+                margin-left: 13px;
+                width: 390px;
+                height: 506px;
+                flex-shrink: 0;
+            }
+            
+        }
+        .ghoting_ground{
+            background-image: linear-gradient(#ffffff , #f8f8f8 20%, rgb(241, 241, 241));
+            .ghoting_groundtext{
+                display: flex;
+                margin-top: 38px;
+                margin-left: 30px;
+                .ghoting_groundtext1{
+                    display: flex;
+                    flex-direction: column;
+                    color: #000;
+                    font-family: Abel;
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 40px; /* 142.857% */
+                    width: 251px;
+                    .ghoting_groundtext2{
+                        margin-left: 2px;
+                        color: #65646C;
+                        font-family: Tiro Devanagari Hindi;
+                        font-size: 14px;
+                        font-style: italic;
+                        font-weight: 400;
+                        line-height: 21px; /* 150% */
+                        width: 314px;
+                    }
+                }
+            }
+            .ghoting_groundbox{
+                padding-top: 30px;
+                margin-left: 0px;
+                text-align: center;
+                .ghoting_groundbox1{
+                    img{width: 315px;
+                        height: 358px;}
+                    .ghoting_groundbox2{
+                        img{width: 315px;
+                            height: 358px;}
+                    }
+                }
+                .ghoting_groundbox3{
+                    img{width: 315px;
+                        height: 358px;}
+                    .ghoting_groundbox4{
+                        img{width: 315px;
+                            height: 358px;}
+                    }
+                }
+                .ghoting_groundbox5{
+                    img{width: 315px;
+                        height: 358px;}
+                    .ghoting_groundbox6{
+                        img{width: 315px;
+                            height: 358px;}
+                    }
+                }
+                .ghoting_groundbox7{
+                    img{width: 315px;
+                        height: 358px;}
+                    .ghoting_groundbox8{
+                        img{width: 315px;
+                            height: 358px;}
+                    }
+                }
+            }
+        }
+    }
+}
+

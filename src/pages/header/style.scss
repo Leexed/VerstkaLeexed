@@ -4,7 +4,9 @@ background-color: rgb(255, 255, 255);
 display: flex;
 
 
-&__logo{
+.header__logo{
+  img{width: 33.412px;
+    height: 34px;}
     padding-top: 29px;
     margin-left: 390px;
     margin-right: -2px;

@@ -158,8 +158,18 @@ const HomePage = () => (
             </div>
            
             <div className={'home__whitebox'}>
+            
                 <div className={'home__box'}>
-                    <img src={'./assets/images/whitebox2.png'}/> 
+                
+                    <img src={'./assets/images/whitebox11.png'}/> 
+                    
+                    <div className={'home__ramkabox'}>
+                        <img src={'./assets/images/ramkabox.png'}/> 
+                    </div>
+                    <div className={'home__blackbox'}>
+                        <img src={'./assets/images/blackbox.png'}/> 
+                    </div>
+                    
                     <div className={'home__boxttext1'}>
                     Присоединяйтесь к нам
                 </div>
@@ -169,9 +179,11 @@ const HomePage = () => (
                     <div className={'home__boxttext3'}>
                     Выбрать курс
                 </div>
-                </div>
-           
-                    
+                
+                    </div>
+                    <div className={'home__risovalka'}>
+                        <img src={'./assets/images/risovalka.png'}/> 
+                    </div>
                 </div>
             </div>
     )

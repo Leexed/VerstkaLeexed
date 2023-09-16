@@ -1,10 +1,16 @@
 import React from "react";
 import './style.scss';
 import { Link } from "react-router-dom";
+import classNames from 'classnames'
 
-const Footer = () => (
+export const Footer = () => {
+    window.scrollTo(0,0)
+
+    return (
+        <React.Fragment>
   <div className="footer">
     <div className={"footer_info"}>
+        <div className={'footer_info_logogroup'}>
         <div className={'footer_info_logo'}>
             <Link to={'/'}><img src={'./assets/logo.svg'}/></Link>
             <div className={'footer_imageskills'}>
@@ -13,7 +19,8 @@ const Footer = () => (
         </div>              
         <div className={'footer__logotext'}>
             <div>Онлайн-школа<br/>визуальных<br/>искусств</div>
-        </div>      
+        </div> 
+        </div>     
         <div className={'footer__menu'}>
             <div><Link to={'/'}>Главная</Link></div>
             <div><Link to={'/courses'}>Все курсы</Link></div>
@@ -38,7 +45,7 @@ const Footer = () => (
 
   
 
-  
-);
-
+    </React.Fragment>
+    );
+    }
 export default Footer;

@@ -102,7 +102,7 @@ const SketchingPage = () => (
                 </div>
                 <a className="sketching_videofoto">
                     <img src={"./assets/images/sketching/sketchingvideo.png"}/>
-                    <a className='sketching_videotext5'>
+                    <a className='sketching_videotext55'>
                     В деталях и с эмоциями  - о курсе от Ирины Шельменко
                     </a>
                 </a>
@@ -124,7 +124,7 @@ const SketchingPage = () => (
                         </a>
                     </a>
                     <a className="sketching_fotoadvokad">
-                        <a className="sketching_fotoadvokad2">
+                        <a className="sketching_fotoadvokad1">
                             <a className='sketching_fotoadvokad11'>
                             <img src={"./assets/images/sketching/581.png"}/>
                             </a>

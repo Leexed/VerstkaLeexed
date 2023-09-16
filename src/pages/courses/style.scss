@@ -101,3 +101,132 @@
             }
         }
     }
+
+@media (max-width: 992px) {
+    .courses{
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(#ffffff , #f8f8f8 98%, rgb(241, 241, 241));
+        .courses__header{
+            display: flex;
+            flex-direction: column-reverse;
+            text-align: left;
+            margin-left: 0px;
+            .courses__headerimg{
+                img{width: 385px;
+                    height: 487px;}
+                padding-top: 14px;
+                margin-left: 0px;
+                display: flex;
+                width: 385px;
+                height: 487px;
+                flex-shrink: 0;
+            }
+            .courses__header_text{
+                
+                .courses__header_text1{
+                    text-align: left;
+                    padding-top: 50px;
+                    margin-left: 29px;
+                    display: flex;
+                    width: 461px;
+                    flex-direction: column;
+                    flex-shrink: 0;
+                    color: #000;
+                    font-family: Abel;
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 40px; /* 111.111% */
+                    width: 215px;
+                }
+                .courses__header_text2{
+                    text-align: left;
+                    padding-top: 19px;
+                    margin-left: 32px;
+                    display: flex;
+                    width: 458px;
+                    flex-direction: column;
+                    flex-shrink: 0;
+                    color: #65646C;
+                    font-family: Tiro Devanagari Hindi;
+                    font-size: 14px;
+                    font-style: italic;
+                    font-weight: 400;
+                    line-height: 26px; /* 185.714% */ 
+                    width: 315px;    
+                }
+            }
+        }
+        .courses__center_text{
+                display: flex;
+                flex-direction: column;
+                .courses__center_text1{
+                    display: flex;
+                    margin-left: 29px;
+                    padding-top: 126px;
+                    color: #000;
+                    font-family: Abel;
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 40px; /* 142.857% */
+                    width: 254px;
+                }
+                .courses__center_text2{
+                    display: flex;
+                    margin-left: 30px;
+                    padding-top: 10px;
+                    width: 615px;
+                    flex-shrink: 0;
+                    color: #65646C;
+                    font-family: Tiro Devanagari Hindi;
+                    font-size: 14px;
+                    font-style: italic;
+                    font-weight: 400;
+                    line-height: 26px; /* 185.714% */
+                    width: 315px;
+                }
+            }
+        .courses__courses{
+                display: flex;
+                justify-content: center;
+                padding-bottom: 18px;
+                padding-top: 10px;
+                flex-direction: column;
+                align-items: center;
+                .courses__headergot{
+                    img{
+                        width: 263px;
+                        height: 400px;
+                    }
+                    display: flex;
+                    width: 263px;
+                        height: 400px;
+                    flex-shrink: 0;
+                    margin-right: 0px;
+                }
+                .courses__headerfash{
+                    img{
+                        width: 263px;
+                        height: 400px;
+                    }
+                    display: flex;
+                    width: 263px;
+                        height: 400px;
+                    flex-shrink: 0;
+                    margin-right: 0px;
+                }
+                .courses__headersket{
+                    img{
+                        width: 263px;
+                        height: 400px;
+                    }
+                    display: flex;
+                    width: 263px;
+                        height: 400px;
+                    flex-shrink: 0;
+                }
+            }
+        }
+}

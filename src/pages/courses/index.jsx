@@ -26,7 +26,7 @@ const CoursesPage = () => (
             
             <div className={'courses__courses'}>
                 <div className={'courses__headergot'}>
-                <Link to={'/ghoting'}><img src={'./assets/images/Gothic.png'}/> </Link>
+                <Link to={'/ghoting'}><img src={'./assets/images/Gothic.png'}/></Link>
                 </div>
                 <div className={'courses__headerfash'}>
                 <Link to={'/fashion'}><img src={'./assets/images/Fashion.png'}/> </Link>
@@ -41,3 +41,4 @@ const CoursesPage = () => (
 )
 
 export default CoursesPage
+

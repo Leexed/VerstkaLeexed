@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 import classNames from 'classnames'
 
 export const HeaderPage = () => {
+    window.scrollTo(0,0)
     const [isOpen, setIsOpen] = React.useState(false)
+    
     return ( 
     <React.Fragment>
     <div className={'header'}>
@@ -55,10 +57,10 @@ export const HeaderPage = () => {
                 <div className="lineheader1">
                 <img src={"./assets/images/lineheader.png"}/>
                 </div>
-                <div>
+                <div onClick={() => setIsOpen(!isOpen)}>
                 <Link to={'/'}>Главная</Link>
                 </div>
-                <div>
+                <div onClick={() => setIsOpen(!isOpen)}>
                 <Link to={'/courses'}>Все курсы</Link>
                 </div>
                 <div className="phone_number">

@@ -124,7 +124,7 @@ const GhotingPage = () => (
                         </a>
                     </a>
                     <a className="ghoting_fotoadvokad">
-                        <a className="ghoting_fotoadvokad2">
+                        <a className="ghoting_fotoadvokad1">
                             <a className='ghoting_fotoadvokad11'>
                             <img src={"./assets/images/ghoting/581.png"}/>
                             </a>

@@ -124,7 +124,7 @@ const FashionPage = () => (
                         </a>
                     </a>
                     <a className="fashion_fotoadvokad">
-                        <a className="fashion_fotoadvokad2">
+                        <a className="fashion_fotoadvokad1">
                             <a className='fashion_fotoadvokad11'>
                             <img src={"./assets/images/fashion/581.png"}/>
                             </a>
